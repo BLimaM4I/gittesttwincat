@@ -5,13 +5,16 @@
 VAR
 	counter :	INT;
 	counter1 :	INT;
+	counter2 :	INT;
 	
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[counter:=10;
 //added a second line to the file
-counter1:=11;]]></ST>
+counter1:=11;
+//second comment
+counter2:=counter2+1;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
